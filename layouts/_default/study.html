@@ -65,16 +65,6 @@
 						{{ end }}
 					</section>
 					<section class="status">
-						<h3>Redux zines</h3>
-							{{ range where .Site.Pages "Params.category" "redux" }}
-						{{ if not (in .Params.status "draft") }}
-						{{ partial "category-post.html" . }}
-						{{ else }}
-<p>Soon</p>
-						{{ end }}
-						{{ end }}
-					</section>
-					<section class="status">
 						<h3>Past study groups</h3>
 						 {{ range (.Pages.ByParam "category.study") }}
 						{{ if in .Params.status "previous" }}

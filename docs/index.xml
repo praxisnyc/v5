@@ -79,29 +79,11 @@ Do you want to connect? Find the others</description>
     </item>
     
     <item>
-      <title>appointment</title>
-      <link>https://praxis.nyc/appointment/</link>
-      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://praxis.nyc/appointment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>commons</title>
       <link>https://praxis.nyc/commons/</link>
       <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://praxis.nyc/commons/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>room</title>
-      <link>https://praxis.nyc/room/</link>
-      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://praxis.nyc/room/</guid>
       <description></description>
     </item>
     
@@ -120,24 +102,6 @@ Do you want to connect? Find the others</description>
       <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://praxis.nyc/small-room/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>study</title>
-      <link>https://praxis.nyc/study/</link>
-      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://praxis.nyc/study/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>team</title>
-      <link>https://praxis.nyc/team/</link>
-      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://praxis.nyc/team/</guid>
       <description></description>
     </item>
     
