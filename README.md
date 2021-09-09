@@ -1,18 +1,6 @@
-# praxis
+# praxis v5
 
-https://praxis.nyc
+> commons as root, all focus on mesa
 
-### TODO
-
-- [x] background fixed ios fix ([iOS work around/fix for background attachment fixed](https://codepen.io/callumfindlay/pen/VaYeoW))
-- [ ] language switch
-- [ ] slide last page
-- [ ] zine affordance (back to revealjs?)
-- [ ] hugo theme instructions
-  - [ ] padding for icon only
-- [ ] get copy for each pillar
-- [ ] share open data meta function
-  - [ ] jpg version for gif covers
-- [ ] praxis email (zoho?)
-- [ ] mailchimp with subsets for each category
-- [ ] calendar integration
+https://praxis.nyc/v5
+https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd

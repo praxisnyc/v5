@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{{ partial "html.html" . }}
+{{ partial "head.html" . }}
+<body class="list">
+		{{ partial "cover.html" . }}
+	<div class="background"></div>
+	<div class="box-content">
+	<aside>
+			<div class="fixed">
+					{{ partial "logo.html" . }}
+				{{ partial "footer.html" . }}
+			</div>
+		</aside>
+		<article class="main">
+			<header class="header">
+				<h1>{{ .Site.Title }}</h1>
+				<h2>/{{ .Title | singularize }}</h2>
+			</header>
+			
+				<div class="category-menu">
+					
+						 {{ range (.Pages.ByParam "category.mesa") }}
+						{{ if not (in .Params.status "draft") }}
+						{{ partial "category-post.html" . }}
+						{{ end }}
+						{{ end }}
+					
+					</div>
+		{{ partial "footer.html" . }}
+		</article>
+	</div>
+	{{ partial "scripts.html" . }} 
+</body>
+</html>

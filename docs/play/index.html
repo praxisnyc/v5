@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="   ">
+<html lang="en" class="play dark-mode commons published">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +9,25 @@
 
 	<title>Praxis</title>
 </head>
-<body class="list">
+<body>
 	
+<style type="text/css">
+	header.header, a.logo {
+		--color-bg: black;
+		--color-fg: white;
+		--color-accent: #EDB6D3;
+	}
+</style>
+<div class="cover" style="background-image: url(https://praxis.nyc//images/7e12f771455f32f283d7c5.jpg)">
+	
+</div>
+
+
 	<div class="background"></div>
 	<div class="box-content">
-		<aside>
+			<aside>
 			<div class="fixed">
-				
+					
 			<a href="https://praxis.nyc/" class="logo"><svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="logo-big">
 <rect id="background" width="90" height="90" fill="black"/>
@@ -26,72 +38,255 @@
 </a>
 
 				<footer class="footer">
-	<nav>
-		<a class="path" href="https://praxis.nyc//study">study</a>
-		<a class="path" href="https://praxis.nyc//commons">commons</a>
-		<a class="path" href="https://praxis.nyc//play">play</a>
-	</nav>
 			<div class="links">
-				<a href="https://praxis.nyc//team">team</a>
+				<a href="https://praxis.nyc//study">study</a>
+			
 				<a href="https://praxis.nyc//events">events</a>
 				<a href="https://praxis.nyc//commons/consulting/">consulting</a>
+					<a href="https://praxis.nyc//team">team</a>
 			</div>
 </footer>
 			</div>
 		</aside>
 		<article class="main">
 			<header class="header">
-				<h1>Praxis</h1>
-				<h2>/Play</h2>
+				<h1>Play</h1>
+				<h2>a creative code theme</h2>
 			</header>
-			<div class="description">
-				<p>Digital as material. Open source as a property. Coding for exploration and discovery.</p>
-				<p>Resources and tools to get in the zone with the machine.</p>
-				<br>
-
-			</div>
-			<div class="category-menu">
-				
-				<a  class="category-post" href="https://praxis.nyc/play/hugo-theme/"  style="background-image: url(https://praxis.nyc/images/7e12f771455f32f283d7c5.jpg)">
-
-		
 			
-	<header>
-		<p class="title">Play</p>
-		<p class="description">a creative code theme</p>
-		
-		
-		
-		
-	</header>
-</a>
-				
-				<a  class="category-post" href="https://praxis.nyc/play/resources/"  style="background-image: url(https://praxis.nyc/images/05c817714498686aadb556.jpg)">
+			<a href="https://github.com/praxisnyc/play/archive/1.4.zip" class="btn CTA"> <span class="text">Download Praxis Play <span class="sig">Version 1.4</span></span></a>
+<p>A <a href="https://gohugo.io/" rel="nofollow">hugo</a> theme environment for stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone.</p>
+ <p>Subscribe to our newsletter for updates:</p>
+  <form class="tinyletter" action="https://tinyletter.com/praxis-play" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/praxis-play', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+ <input class="input" type="text" placeholder="type your email" name="email" id="tlemail" />
+  <input type="hidden" value="1" name="embed"/>
+  <input class="button" type="submit" value="Subscribe" />
+</form>
+        
+<section class="feature-list">
+  <ul class="nav nav-pills" id="hugo" role="tablist">
 
-		
-			
-	<header>
-		<p class="title">Resources</p>
-		<p class="description">creative coding online</p>
-		
-		
-		
-		
-	</header>
-</a>
-				
-			</div>
-			
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" href="#features" data-toggle="tab">features</a>
+</li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="#scope" data-toggle="tab">CSS scope</a>
+</li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="#credits" data-toggle="tab">credits</a>
+</li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="#installation" data-toggle="tab">installation</a>
+</li>
+ <!--  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="#shortcodes" data-toggle="tab">Shortcodes</a>
+</li> -->
+
+</ul>
+<div class="tab-content">
+  <div class="tab-pane fade show in active" id="features">
+    <p>Ready-to-use features to speed up your creative code: Want text not to be selectable? Want to prevent zoom? ml5? smooth scroll?</p>
+	<p>On frontmatter, add the features you need with <code>play: feature1, feature2</code>, etc (Make sure post is .html)</p>
+	<p>Features are per page so you only load what you need, to ensure performance.</p>
+
+
+<ul class="nav nav-pills" id="features" role="tablist">
+
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" href="#ready" data-toggle="tab">👍<span class="active-only">ready to use</span></a>
+</li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="#testing" data-toggle="tab">🧪<span class="active-only">in testing</span></a>
+</li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="#soon" data-toggle="tab">⏳<span class="active-only">soon</span></a>
+</li>
+
+</ul>
+<div class="tab-content">
+  <div class="tab-pane fade show in active" id="ready">
+ <table class="table">
+	<tr>
+		<td><code>no-scroll</code></td>
+		<td><p>prevents scroll</p></td>
+	</tr>
+	<tr>
+		<td><code>no-zoom</code></td>
+		<td><p>prevents zoom</p></td>
+	</tr>
+	<tr>
+		<td><code>modernizr</code></td>
+		<td><p>installs <a href="https://modernizr.com/" rel="nofollow">modernizr</a> and <a href="https://github.com/barisaydinoglu/Detectizr#detectizr">detectizr</a> libraries</p></td>
+	</tr>
+	<tr>
+		<td><code>ml5js</code></td>
+		<td><p>installs <a href="https://ml5js.org/" rel="nofollow">ml5js library</a></p></td>
+	</tr>
+	<tr>
+		<td><code>jquery</code></td>
+		<td><p>installs <a href="https://jquery.com/" rel="nofollow">jquery library</a></p></td>
+	</tr>
+	<tr>
+		<td><code>style</code></td>
+		<td><p>accepts your <a href="https://gohugo.io/hugo-pipes/scss-sass/" rel="nofollow">hugo main.scss</a>. Make sure you have <code>main.scss</code> ready</p>
+			</td>
+</tr>
+	<tr>
+		<td><code>no-credits</code></td>
+		<td><p>removes <strong>praxis / play</strong> credits</p></td>
+	</tr>
+	<tr>
+		<td><code>no-scope</code></td>
+		<td><p>removes CSS scope html classes</p></td>
+	</tr>
+	<tr>
+		<td><code>no-text-select</code></td>
+		<td><p>prevents text selection (globally)</p>
+		</td>
+</tr>
+	<tr>
+		<td><code>revealjs</code></td>
+		<td><p>installs <a href="https://revealjs.com/" rel="nofollow">revealjs library</a>. Wrap each slide in <code>&lt;section&gt;</code> for it to work, use <code>revealjs[theme]</code> for themes (<a href="https://revealjs.com/themes/" rel="nofollow">view complete list</a>)</p></td></tr>
+ </table>
+  </div>
+  <div class="tab-pane fade" id="testing">
+ <table class="table">
+	<tr>
+		<td><code>magazine</code></td>
+		<td><p>a variation of revealjs with magazine ratios (view <a href="https://github.com/praxisnyc/play/blob/main/assets/css/revealjs/theme/magazine.css">css variables</a> to edit). Use <code>play: revealjs[magazine]</code> to activate it</p></td>
+	</tr>
+</table>
+  </div>
+  <div class="tab-pane fade" id="soon">
+<table class="table">
+	
+	<tr>
+		<td>
+			<code>bootstrap</code>
+		</td>
+		<td>
+			<p>installs bootstrap CSS and JS, plus popper and tooltip/popover activation</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>redirect</code>
+		</td>
+		<td>
+			<p>redirects page  (maybe a shortcode?)</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>favicon</code>
+		</td>
+		<td>
+			<p>adds favicon for all browsers and devices</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>open-graph</code>
+		</td>
+		<td>
+			<p>adds all open-graph features (for facebook ,twitter, etc)</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>request-motion</code>
+		</td>
+		<td>
+			<p>modal intercept requesting gyroscope permissions (should only appear if browser HAS this function)</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>smooth-scroll</code>
+		</td>
+		<td>
+			<p>forces smooth scrolling when internal navigation</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>no-nav</code>
+		</td>
+		<td>
+			<p>removes top browser navigation (maybe PWA is better?)</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>request-location</code>
+		</td>
+		<td>
+			<p>modal intercept requesting location permissions</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>request-camera</code>
+		</td>
+		<td>
+			<p>modal intercept requesting camera permissions</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>fullbleed</code>
+		</td>
+		<td>
+			<p>moves canvas to bg, below HTML</p>
+		</td>
+	</tr>
+</ul>
+</table>
+  </div>
+</div>
+
+
+
+
+  </div>
+  <div class="tab-pane fade" id="scope">
+ <p>We automatically adds post slug as an <code>html</code> class, so if your post url is <code>domain/category/post/</code> your <code>html</code> also has a class <code>play-post</code> (it starts with <code>play-</code> to prevent any conflict).</p>
+<p>You can also create a more generic style (for multiple pages) by adding <code>style: style-name</code> on frontmatter. It will also appear as a class on <code>html</code>.</p>
+<p>Don't want CSS scope? Use <code>no-scope</code> feature</p>
+  </div>
+  <div class="tab-pane fade" id="credits">
+ <p>By default, all creations have a hidden <strong>credits</strong> modal, accessed by clicking a top-right hidden area. It has:</p>
+<ul>
+	<li><span class="emoji">👍</span> title, description (from frontmatter)</li>
+	<li><span class="emoji">👍</span> wanna describe in details your notes? use <code>about:</code> frontmatter. It's markdown-ready (use "" if multi-line)</li>
+	<li><span class="emoji">⏳</span> if you have other relevant creations (sorted by features), it's listed here too (use <code>no-relevant-links</code> feature to disable)</li>
+	<li><span class="emoji">⏳</span> author list (as <a href="https://github.com/gohugoio/hugo/pull/1850">per this standardization</a>)</li>
+	<li><span class="emoji">👍</span> Don't want credits on your creation? Use <code>no-credits</code> feature</li>
+</ul>
+  </div>
+  <div class="tab-pane fade" id="installation">
+ <ol>
+	<li>Download <a href="https://github.com/praxisnyc/play/archive/1.4.zip">latest release</a></li>
+	<li>Unzip it and rename as <code>play</code></li>
+	<li>Move entire folder inside your huge <code>themes</code> folder</li>
+	<li>On <code>config.toml</code> add <code>theme = "play"</code></li>
+	<li>Run your hugo normally</li>
+</ol>
+
+  </div>
+<!--   <div class="tab-pane fade" id="shortcodes">
+ <p>pending</p>
+  </div> -->
+
+</div>
+</section>
 			<footer class="footer">
-	<nav>
-		<a class="path" href="https://praxis.nyc//study">study</a>
-		<a class="path" href="https://praxis.nyc//commons">commons</a>
-		<a class="path" href="https://praxis.nyc//play">play</a>
-	</nav>
 			<div class="links">
-				<a href="https://praxis.nyc//team">team</a>
+				<a href="https://praxis.nyc//study">study</a>
+			
 				<a href="https://praxis.nyc//events">events</a>
 				<a href="https://praxis.nyc//commons/consulting/">consulting</a>
+					<a href="https://praxis.nyc//team">team</a>
 			</div>
 </footer>
 		</article>
@@ -130,3 +325,4 @@
  
 </body>
 </html>
+
