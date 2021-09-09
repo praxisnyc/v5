@@ -27,10 +27,10 @@
     
     <item>
       <title>Play</title>
-      <link>https://praxis.nyc/play/hugo-theme/</link>
+      <link>https://praxis.nyc/commons/hugo-theme/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://praxis.nyc/play/hugo-theme/</guid>
+      <guid>https://praxis.nyc/commons/hugo-theme/</guid>
       <description>Download Praxis Play Version 1.4 A hugo theme environment for stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone.
 Subscribe to our newsletter for updates:
  features  CSS scope  credits  installation  Shortcodes  --  Ready-to-use features to speed up your creative code: Want text not to be selectable? Want to prevent zoom? ml5? smooth scroll?
@@ -51,10 +51,10 @@ Reprint freely
     
     <item>
       <title>Resources</title>
-      <link>https://praxis.nyc/play/resources/</link>
+      <link>https://praxis.nyc/commons/resources/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://praxis.nyc/play/resources/</guid>
+      <guid>https://praxis.nyc/commons/resources/</guid>
       <description>Do you have a resource you want to add to the list? Add it here
 Do you want to connect? Find the others</description>
     </item>
@@ -152,19 +152,19 @@ Do you want to connect? Find the others</description>
     
     <item>
       <title>Situated Cognition</title>
-      <link>https://praxis.nyc/slide/cognition/</link>
+      <link>https://praxis.nyc/commons/cognition/</link>
       <pubDate>Mon, 01 Jun 2020 18:03:16 -0500</pubDate>
       
-      <guid>https://praxis.nyc/slide/cognition/</guid>
+      <guid>https://praxis.nyc/commons/cognition/</guid>
       <description>Brainbound The (nonneural) body is just the sensor and effector system of the brain, and the world is just the arena in which adaptive problems get posed and in which the brain–body system must sense and act. All human cognition depends directly on neural activity alone.    Extended Includes inextricable tangles of feedback, feed-forward, and feed-around loops: loops that promiscuously criss-cross the boundaries of brain, body, and world.</description>
     </item>
     
     <item>
       <title>✨Wish</title>
-      <link>https://praxis.nyc/slide/wish/</link>
+      <link>https://praxis.nyc/commons/wish/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://praxis.nyc/slide/wish/</guid>
+      <guid>https://praxis.nyc/commons/wish/</guid>
       <description></description>
     </item>
     

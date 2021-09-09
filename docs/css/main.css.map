@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/nonlinear/Documents/praxis/v4",
+	"sourceRoot": "/Users/nonlinear/Documents/praxis/v5",
 	"sources": [
 		"assets/css/main.scss",
 		"assets/css/vendor/animatewithsass/animate.scss",
