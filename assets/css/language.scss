@@ -20,6 +20,7 @@ html {
 	&.lang-en {
 		[lang=en] {
 			display: block;
+			@include fadeIn;
 		}
 		nav.lang a.lang-en {
 			@extend .active;
@@ -28,6 +29,8 @@ html {
 	&.lang-pt {
 		[lang=pt] {
 			display: block;
+
+			@include fadeIn;
 		}
 		nav.lang a.lang-pt {
 			@extend .active;
@@ -36,6 +39,8 @@ html {
 	&.lang-de {
 		[lang=de] {
 			display: block;
+
+			@include fadeIn;
 		}
 		nav.lang a.lang-de {
 			@extend .active;

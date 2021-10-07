@@ -10,6 +10,10 @@
 {{ $bootstrap := resources.Get "js/bootstrap.min.js" }}
 <script src="{{ $bootstrap.Permalink }}"></script>
 <script>
+function languageSwap(language) {
+$('html').removeClass('lang-en').removeClass('lang-pt').removeClass('lang-de').addClass('lang-' + language);
+}
+
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     });
