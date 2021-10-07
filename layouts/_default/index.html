@@ -7,39 +7,51 @@
 	<div class="box-content">
 		<aside>
 			<div class="fixed">
-					{{ partial "logo.html" . }}
+				{{ partial "logo.html" . }}
 				{{ partial "footer.html" . }}
 			</div>
 		</aside>
-	
+
 		<article class="main">
 			<header class="header">
 				<h1>{{ .Site.Title }}</h1>
 				<div class="slogan">
 					<p>Decolonize your attention</p>
 				</div>
+				<nav class="lang">
+					<a class="lang-en" href="javascript:blabla">english</a>
+					<a class="lang-pt" href="javascript:blabla">português</a>
+						<a class="lang-de"  href="javascript:blabla">deutsch</a>
+				</nav>
 			</header>
-				<nav>
-					{{ partial "description.html" . }}
-<div class="category-menu">
-						{{ range where .Site.Pages "Params.category" "commons" }}
-						{{ if not (in .Params.status "draft") }}
-						{{ partial "category-post.html" . }}
-						{{ end }}
-						{{ end }}
+			<nav>
+				<section class="description">
+					<div lang="en">
+						{{ partial "content/description.en.html" . }}
 					</div>
+					<div lang="pt">
+						{{ partial "content/description.pt.html" . }}
+					</div>
+				</section>
+				<div class="category-menu">
+					{{ range where .Site.Pages "Params.category" "commons" }}
+					{{ if not (in .Params.status "draft") }}
+					{{ partial "category-post.html" . }}
+					{{ end }}
+					{{ end }}
+				</div>
 
-					<div class="category-menu">
-						{{ range where .Site.Pages "Params.category" "slide" }}
-						{{ if not (in .Params.status "draft") }}
-						{{ partial "category-post.html" . }}
-						{{ end }}
-						{{ end }}
-					</div>
-		</nav>
+				<div class="category-menu">
+					{{ range where .Site.Pages "Params.category" "slide" }}
+					{{ if not (in .Params.status "draft") }}
+					{{ partial "category-post.html" . }}
+					{{ end }}
+					{{ end }}
+				</div>
+			</nav>
 			{{ partial "footer.html" . }}
 		</article>
-			
+
 	</div>
 	{{ partial "scripts.html" . }} 
 </body>
