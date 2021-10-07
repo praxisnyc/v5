@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" class="enslavement  study previous">
+<html class="lang-en enslavement  study previous">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<link rel="stylesheet" href="https://praxis.nyc/css/main.18e0fe1e2941610a43b8d776d031a3fae563b64949e30656b5bdbd3cea346944.css">
+<link rel="stylesheet" href="https://praxis.nyc/css/main.e25c58fa227ceaa044fe975424d26686d905d052b01c021b1cd3f842a47f4aea.css">
 
 	<title>Praxis</title>
 </head>
@@ -177,6 +177,10 @@
 
 <script src="https://praxis.nyc/js/bootstrap.min.js"></script>
 <script>
+function languageSwap(language) {
+$('html').removeClass('lang-en').removeClass('lang-pt').removeClass('lang-de').addClass('lang-' + language);
+}
+
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     });
