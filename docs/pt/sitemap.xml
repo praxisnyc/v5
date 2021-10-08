@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://praxis.nyc/pt/categories/</loc>
+    <loc>https://praxis.nyc/v5/pt/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://praxis.nyc/categories/"
+                href="https://praxis.nyc/v5/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://praxis.nyc/pt/categories/"
+                href="https://praxis.nyc/v5/pt/categories/"
                 />
   </url><url>
-    <loc>https://praxis.nyc/pt/</loc>
+    <loc>https://praxis.nyc/v5/pt/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://praxis.nyc/"
+                href="https://praxis.nyc/v5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://praxis.nyc/pt/"
+                href="https://praxis.nyc/v5/pt/"
                 />
   </url><url>
-    <loc>https://praxis.nyc/pt/tags/</loc>
+    <loc>https://praxis.nyc/v5/pt/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://praxis.nyc/tags/"
+                href="https://praxis.nyc/v5/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://praxis.nyc/pt/tags/"
+                href="https://praxis.nyc/v5/pt/tags/"
                 />
   </url>
 </urlset>
