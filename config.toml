@@ -5,10 +5,3 @@ description = "Decolonize your attention"
 publishDir = "docs"
 logo = "logo-big.svg"
 category = ["study", "commons", "mesa"]
-descriptionaaa = 'aaaa'
-
-[languages]
-  [languages.en]
-  	description = 'aaaa'
-  [languages.pt]
-  	description = 'aaaa'
