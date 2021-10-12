@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="lang-en resources  commons published">
+<html class="resources  commons published">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,32 +82,49 @@
 
 <script src="https://praxis.nyc/v5/js/bootstrap.min.js"></script>
 <script>
-  function languageSwap(language) {
-    $('html').removeClass('lang-en')
-    .removeClass('lang-pt')
-    .removeClass('lang-de')
-    .addClass('lang-' + language);
-    
-  }
 
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
+
+$(document).ready(function() {
+  var $_GET = {};
+  document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+    function decode(s) {
+      return decodeURIComponent(s.split("+").join(" "));
+    }
+    $_GET[decode(arguments[1])] = decode(arguments[2]);
   });
-  $('[data-toggle="popover"]').popover({ trigger: "manual" , html: true, animation:false, content: ''})
-  .on("mouseenter", function () {
-    var _this = this;
-    $(this).popover("show");
-    $(".popover").on("mouseleave", function () {
-      $(_this).popover('hide');
-    });
-  }).on("mouseleave", function () {
-    var _this = this;
-    setTimeout(function () {
-      if (!$(".popover:hover").length) {
-        $(_this).popover("hide");
-      }
-    }, 300);
+  if ($_GET["lang"] == undefined) {
+    languageSwap('en');
+  } else {
+   languageSwap($_GET["lang"]);
+ }
+})
+
+function languageSwap(language) {
+  $('html').removeClass('lang-en')
+  .removeClass('lang-pt')
+  .removeClass('lang-de')
+  .addClass('lang-' + language);
+  window.history.pushState("object or string", "Title", window.location.pathname + "?lang=" + language);
+}
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+$('[data-toggle="popover"]').popover({ trigger: "manual" , html: true, animation:false, content: ''})
+.on("mouseenter", function () {
+  var _this = this;
+  $(this).popover("show");
+  $(".popover").on("mouseleave", function () {
+    $(_this).popover('hide');
   });
+}).on("mouseleave", function () {
+  var _this = this;
+  setTimeout(function () {
+    if (!$(".popover:hover").length) {
+      $(_this).popover("hide");
+    }
+  }, 300);
+});
 </script>
  
 </body>

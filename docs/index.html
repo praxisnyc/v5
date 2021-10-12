@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="lang-en    ">
+<html class="   ">
 <head>
 	<meta name="generator" content="Hugo 0.82.0" />
 	<meta charset="UTF-8">
@@ -44,6 +44,19 @@
 				<div class="slogan">
 					<p>Decolonize your attention</p>
 				</div>
+on load
+text + slug
+get slug from glossary.yaml
+get if any dangerous character
+if yes, text
+if no, continue
+check parent lang=
+check if we HAVE term in this language
+if yes, do popover
+if no, just text
+				<a data-toggle="popover" data-html="true" data-content='
+
+				'>term</a>
 				<nav class="lang">
 					<a class="lang-en" href="javascript:languageSwap('en')">english</a>
 					<a class="lang-pt" href="javascript:languageSwap('pt')">português</a>
@@ -218,32 +231,49 @@
 
 <script src="https://praxis.nyc/v5/js/bootstrap.min.js"></script>
 <script>
-  function languageSwap(language) {
-    $('html').removeClass('lang-en')
-    .removeClass('lang-pt')
-    .removeClass('lang-de')
-    .addClass('lang-' + language);
-    
-  }
 
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
+
+$(document).ready(function() {
+  var $_GET = {};
+  document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+    function decode(s) {
+      return decodeURIComponent(s.split("+").join(" "));
+    }
+    $_GET[decode(arguments[1])] = decode(arguments[2]);
   });
-  $('[data-toggle="popover"]').popover({ trigger: "manual" , html: true, animation:false, content: ''})
-  .on("mouseenter", function () {
-    var _this = this;
-    $(this).popover("show");
-    $(".popover").on("mouseleave", function () {
-      $(_this).popover('hide');
-    });
-  }).on("mouseleave", function () {
-    var _this = this;
-    setTimeout(function () {
-      if (!$(".popover:hover").length) {
-        $(_this).popover("hide");
-      }
-    }, 300);
+  if ($_GET["lang"] == undefined) {
+    languageSwap('en');
+  } else {
+   languageSwap($_GET["lang"]);
+ }
+})
+
+function languageSwap(language) {
+  $('html').removeClass('lang-en')
+  .removeClass('lang-pt')
+  .removeClass('lang-de')
+  .addClass('lang-' + language);
+  window.history.pushState("object or string", "Title", window.location.pathname + "?lang=" + language);
+}
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+$('[data-toggle="popover"]').popover({ trigger: "manual" , html: true, animation:false, content: ''})
+.on("mouseenter", function () {
+  var _this = this;
+  $(this).popover("show");
+  $(".popover").on("mouseleave", function () {
+    $(_this).popover('hide');
   });
+}).on("mouseleave", function () {
+  var _this = this;
+  setTimeout(function () {
+    if (!$(".popover:hover").length) {
+      $(_this).popover("hide");
+    }
+  }, 300);
+});
 </script>
  
 </body>
