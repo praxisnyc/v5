@@ -85,7 +85,14 @@
 <script src="https://praxis.nyc/v5/js/screenfull.min.js"></script>
 
 <script src="https://praxis.nyc/v5/js/bootstrap.min.js"></script>
+
+<link rel="import" href="https://praxis.nyc/v5/html/juicy-popover.html">
+<script src="//cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@1.0.17/webcomponents-lite.min.js"></script>
+
 <script>
+
+
+
 
 
 $(document).ready(function() {
@@ -109,6 +116,8 @@ function languageSwap(language) {
   .removeClass('lang-de')
   .addClass('lang-' + language);
   window.history.pushState("object or string", "Title", window.location.pathname + "?lang=" + language);
+  
+  
 }
 
 $(function () {
