@@ -17,11 +17,7 @@
 				<h1>{{ .Site.Title }}</h1>
 				<div class="slogan">
 					<p>Decolonize your attention</p>
-					<juicy-popover position="bottom left" expand-on="hover">
-    <button slot="handle">termo</button>
-    <div slot="expandable">
-     LOREM IPSUM DOLOR ETC
-  </juicy-popover>
+
 				</div>
 <!-- on load
 text + slug
@@ -33,16 +29,16 @@ check parent lang=
 check if we HAVE term in this language
 if yes, do popover
 if no, just text -->
-				<a data-toggle="popover" data-html="true" data-content='
-
-				'>term</a>
 				<nav class="lang">
 					<a class="lang-en" href="javascript:languageSwap('en')">english</a>
 					<a class="lang-pt" href="javascript:languageSwap('pt')">português</a>
 						<a class="lang-de"  href="javascript:languageSwap('de')">deutsch</a>
 				</nav>
 			</header>
+
+			
 			<nav>
+
 				<section class="description">
 					<div lang="en">
 						{{ partial "content/description.en.html" . }}

@@ -43,23 +43,19 @@
 				<h1>Praxis</h1>
 				<div class="slogan">
 					<p>Decolonize your attention</p>
-					<juicy-popover position="bottom left" expand-on="hover">
-    <button slot="handle">termo</button>
-    <div slot="expandable">
-     LOREM IPSUM DOLOR ETC
-  </juicy-popover>
+
 				</div>
 
-				<a data-toggle="popover" data-html="true" data-content='
-
-				'>term</a>
 				<nav class="lang">
 					<a class="lang-en" href="javascript:languageSwap('en')">english</a>
 					<a class="lang-pt" href="javascript:languageSwap('pt')">português</a>
 						<a class="lang-de"  href="javascript:languageSwap('de')">deutsch</a>
 				</nav>
 			</header>
+
+			
 			<nav>
+
 				<section class="description">
 					<div lang="en">
 						   <p>We are a voluntary consulting group helping original peoples and peripheral communities establish <a data-toggle="popover" data-html="true" data-content='
@@ -227,8 +223,6 @@
 
 <script src="https://praxis.nyc/v5/js/bootstrap.min.js"></script>
 
-<link rel="import" href="https://praxis.nyc/v5/html/juicy-popover.html">
-<script src="//cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@1.0.17/webcomponents-lite.min.js"></script>
 
 <script>
 
@@ -257,6 +251,7 @@ function languageSwap(language) {
   .removeClass('lang-de')
   .addClass('lang-' + language);
   window.history.pushState("object or string", "Title", window.location.pathname + "?lang=" + language);
+  
   
   
 }
