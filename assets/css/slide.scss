@@ -20,7 +20,13 @@ html.slide {
     .grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-gap: var(--gap-2);
+      grid-gap: var(--gap);
+      &.grid-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+       &.grid-third {
+        grid-template-columns: 2fr 1fr;
+      }
     }
     h1, h2 tt, h3 tt {
     text-transform: uppercase;
