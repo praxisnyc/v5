@@ -13,10 +13,16 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 
 ## TODO, communications
 
-- [ ] hugo on josh's computer
-- [ ] hugo-figma integration
+- [X] hugo on josh's computer
+- [X] hugo-figma integration
 - [ ] consulting
- 
+- [ ] sketch remaining pitch images
+- [ ] referance images for drawings
+- [ ] references for brand and slides
+- [ ] start working on brand
+- [ ] revisit image/animatic script
+- [ ] design screens based on script and brand
+
 
 
 ````
