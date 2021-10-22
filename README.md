@@ -7,9 +7,27 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 
 ## TODO, technical
 
-- [ ] better way to move from `csv` to `yaml`
-- [ ] grab yaml file, on popover
-- [ ] popover as automated
+- [ ] move other terms to glossary data folder
+- [ ] discuss capitalization
+- [ ] rethink popover template
+- [ ] create [indigenous glossary](https://gohugo.io/templates/data-templates/) slide with loop
+- [ ] add more terms to glossary
+- [ ] redesign initial page 
+- [ ] slide rethinking
+- [ ] language, persistent
+	```
+	on load
+	text + slug
+	get slug from glossary.yaml
+	get if any dangerous character
+	if yes, text
+	if no, continue
+	check parent lang=
+	check if we HAVE term in this language
+	if yes, do popover
+	if no, just text
+	```
+
 
 ## TODO, communications
 
