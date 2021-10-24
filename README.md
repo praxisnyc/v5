@@ -41,6 +41,15 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 - [ ] revisit image/animatic script
 - [ ] design screens based on script and brand
 
+## Script for map
+
+- elder care
+- food delivery
+- medication/nursing * problem area
+- transportation
+- social connection
+- patient profiles
+- timeline/calendar
 
 
 ````
