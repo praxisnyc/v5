@@ -25,6 +25,8 @@
 	{{ partial "wish/slide.html" . }}
 	{{ else if in .Params.Title "Mesa Pitch" }}
 	{{ partial "mesa/pitch.html" . }}
+	x	{{ else if in .Params.Title "Glossary" }}
+	{{ partial "mesa/glossary.html" . }}
 	{{ else }}
 	{{ .Content }}
 	{{ end }}

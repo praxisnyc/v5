@@ -7,7 +7,7 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 
 ## TODO, technical
 
-- [ ] move other terms to glossary data folder
+- [x] move other terms to glossary data folder
 - [ ] discuss capitalization
 - [ ] rethink popover template
 - [ ] create [indigenous glossary](https://gohugo.io/templates/data-templates/) slide with loop
