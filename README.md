@@ -37,8 +37,7 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 - [ ] consulting
 - [ ] sketch remaining pitch images
 - [ ] referance images for drawings
-- [ ] references for brand and slides
-- [ ] start working on brand
+- [x] start working on brand
 - [ ] revisit image/animatic script
 - [ ] design screens based on script and brand
 
@@ -51,6 +50,25 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 - social connection
 - patient profiles
 - timeline/calendar
+
+## advanced project navigation
+
+- app borders signal hierarchy
+- easy way to flip things to you or others in the group (affordance needed)
+- pinning stacks for arguments (cards, timelines, etc)
+- borders as wayfinding ACROSS apps/projects
+- borders as multidirectional viewing
+- borders as panels, windows
+- poker table (slides repeat for each person)
+- cartoon physics pin group (you can minimize it and expand it again without losing position)
+
+## font selection criteria
+
+- international (accents, languages)
+- open license or a very liberal license
+- a lot of weights
+- readability (from far away? from low definition projectors?)
+- titles and long text
 
 
 ````
