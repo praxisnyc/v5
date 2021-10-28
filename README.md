@@ -7,14 +7,9 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 
 ## TODO, technical
 
-- [x] move other terms to glossary data folder
-- [ ] discuss capitalization
-- [ ] rethink popover template
-- [x] create [indigenous glossary](https://gohugo.io/templates/data-templates/) slide with loop
-- [ ] add more terms to glossary
 - [ ] slides, language swap
 - [ ] redesign initial page 
-- [ ] slide rethinking
+- [ ] mesa as category
 - [ ] language, persistent
 	```
 	on load
@@ -34,6 +29,10 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 
 - [X] hugo on josh's computer
 - [X] hugo-figma integration
+- [ ] glossary
+	- [ ] add more terms
+	- [ ] define glossary types, create slideshow
+	- [ ] be updated of changes
 - [ ] consulting
 - [ ] sketch remaining pitch images
 - [ ] referance images for drawings
@@ -44,12 +43,12 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 ## Script for map
 
 - elder care
-- food delivery
-- medication/nursing * problem area
-- transportation
-- social connection
-- patient profiles
-- timeline/calendar
+	- food delivery
+	- medication/nursing * problem area
+	- transportation
+	- social connection
+	- patient profiles
+	- timeline/calendar
 
 ## advanced project navigation
 
@@ -61,6 +60,23 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 - borders as panels, windows
 - poker table (slides repeat for each person)
 - cartoon physics pin group (you can minimize it and expand it again without losing position)
+
+## bugsbunny picnic
+
+- borders as affordance
+- shared destiny (internal consistency)
+- groups as proposals, with arguments stacked inside it
+- arguments can be:
+	- cards
+	- image crops
+	- animated crop
+	- groups
+- tucked-in objects (kinda personal)
+
+## timeline recall
+
+- possibility to add chapters
+- skip to next chapter
 
 ## font selection criteria
 

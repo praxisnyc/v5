@@ -2,11 +2,11 @@
 {{ range .Site.Data.glossary }}
  <section>
     <div lang="en">
-        <h2>{{ .title_en }}</h2>
+        <h2>{{ .title_en | title }}</h2>
         <p>{{ .description_en | safeHTML }}</p>
     </div>
        <div lang="pt">
-        <h2>{{ .title_pt }}</h2>
+        <h2>{{ .title_pt | title }}</h2>
         <p>{{ .description_pt | safeHTML }}</p>
     </div>
  </section>
