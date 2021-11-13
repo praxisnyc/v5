@@ -8,17 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 13 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://praxis.nyc/v5/play/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://praxis.nyc/v5/play/about/</link>
-      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://praxis.nyc/v5/play/about/</guid>
-      <description>Download Praxis Play Version 1.4 A hugo theme environment for stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone.
-Subscribe to our newsletter for updates:
- </description>
-    </item>
-    
-    <item>
       <title>Credits</title>
       <link>https://praxis.nyc/v5/play/credits/</link>
       <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>

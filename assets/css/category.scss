@@ -21,11 +21,11 @@ section.category {
 	}
 
 	a.btn {
-			@media screen and (min-width: $bp) {
-					float: right;
-		margin-top: -55px;
-			}
-	
+		@media screen and (min-width: $bp) {
+			float: right;
+			margin-top: -55px;
+		}
+
 	}
 	.category-description {
 		margin-top: var(--gap);
@@ -42,7 +42,7 @@ section.category {
 		flex-wrap: no-wrap;
 		overflow-x: auto;
 		max-width: 520px;
-				.category-post {
+		.post-cover {
 			flex: 0 0 auto;
 			margin-top: 20px;
 			width: calc(var(--nav) * 2);
@@ -51,58 +51,90 @@ section.category {
 			}
 		}
 		a.btn { 
-		white-space: nowrap;
-		margin: auto var(--gap-2);
+			white-space: nowrap;
+			margin: auto var(--gap-2);
 
 		}
 	}
 	
 	&:hover .category-menu, html.touch & .category-menu {
 		height: calc(var(--nav) + 40px);
-		.category-post {
+		.post-cover {
 			@include fadeInLeft;
 
 		}
 	}
 	html.touch & .category-menu {
-	@include fadeInDown($delay: calc(var(--delay) * 4));
+		@include fadeInDown($delay: calc(var(--delay) * 4));
 	}
 	
 }
 
 
 .category-menu {
-		@include transition;
-		.category-post {
-			padding: var(--gap-2);
-			displaY: block;
-			height: var(--nav);
-			text-decoration: none;
-			@include assorted-bgs;
-			background-size: cover !important;
-			background-position: center center !important;
-			header {
-				width: calc(var(--nav) * 2);
-			}
-			p {
-				@include transition;
-text-transform: uppercase;
-				font-weight: bold;
-				
-			}
-			&:hover {
-				@include scale(1.1);
-				p {
-					@include highlight(var(--color-accent),$spacing: 0px);
-					color: var(--color-bg);
-					
-				}
-			}
+	@include transition;
+	.post-cover {
+		padding: var(--gap-2);
+		displaY: block;
+		height: var(--nav);
+		text-decoration: none;
+		@include assorted-bgs;
+		background-size: cover !important;
+		background-position: center center !important;
+		header {
+			width: calc(var(--nav) * 2);
+		}
+		p {
+			@include transition;
+			text-transform: uppercase;
+			font-weight: bold;
 
-			.title {
-				font-size: 150%;
-				line-height: 50%;
-				@include highlight($spacing: 0px);
+		}
+		&:hover {
+			@include scale(1.1);
+			p {
+				@include highlight(var(--color-accent),$spacing: 0px);
+				color: var(--color-bg);
+
 			}
 		}
+
+		.title {
+			font-size: 150%;
+			line-height: 50%;
+			@include highlight($spacing: 0px);
+		}
 	}
+}
+
+
+
+
+.post-list {
+	display: grid;
+	background-color: white;
+	grid-template-columns: 1fr 2fr;
+	padding: var(--gap);
+	border-bottom: solid 1px black;
+	text-decoration: none !important;
+
+	&:first-of-type {
+		border-top: solid 3px black;
+	margin-top: var(--gap-2);
+	}
+		&:last-of-type {
+		border-bottom: solid 3px black;
+	margin-bottom: var(--gap-2);
+	}
+
+&:hover {
+	@include translate(20, 0);
+	color: black !important;
+
+}
+.title {
+			font-size: 130%;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+}

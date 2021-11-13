@@ -1,4 +1,4 @@
-<a  class="category-post" href="{{ .Permalink }}"  {{ if .Params.cover  }}style="background-image: url({{ .Site.BaseURL }}images/{{ .Params.cover  }})"{{end}}>		
+<a  class="post-cover" href="{{ .Permalink }}"  {{ if .Params.cover  }}style="background-image: url({{ .Site.BaseURL }}images/{{ .Params.cover  }})"{{end}}>		
 	<header>
 		<p class="title">{{ .Title }}</p>
 		<p class="description">{{ .Description }}</p>

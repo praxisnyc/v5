@@ -26,17 +26,23 @@
 				<div class="category-menu">
 					<section class="status">
 						<h3>Current study groups</h3>
-						 {{ range (.Pages.ByParam "category.study") }}
+						{{ range  where .Site.RegularPages ".Params.category" "study" }}
 						{{ if in .Params.status "current" }}
-						{{ partial "category-post.html" . }}
+						{{ partial "post-cover.html" . }}
 						{{ end }}
+						{{ end }}
+					</section>
+						<section class="status">
+						<h3>Zines</h3>
+						{{ range  where .Site.RegularPages ".Params.category" "zine" }}
+						{{ partial "post-cover.html" . }}
 						{{ end }}
 					</section>
 					<section class="status">
 						<h3>Past study groups</h3>
-						 {{ range (.Pages.ByParam "category.study") }}
+						{{ range  where .Site.RegularPages ".Params.category" "study" }}
 						{{ if in .Params.status "previous" }}
-						{{ partial "category-post.html" . }}
+						{{ partial "post-cover.html" . }}
 						{{ end }}
 						{{ end }}
 					</section>

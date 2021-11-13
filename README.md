@@ -1,15 +1,19 @@
 # praxis v5
 
-> commons as root, all focus on mesa
 
 https://praxis.nyc/v5
 https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 
-## TODO, technical
+## TODO
 
 - [ ] slides, language swap
+- [ ] design `post-list`
+- [ ] switch `category-post` for `post-list`
+- [ ] other articles on same category (on `single`)
+- [ ] different headers for different categories on `single`
+- [ ] what do we do with orphan articles? find category for it
+- [ ] categories on footer
 - [ ] redesign initial page 
-- [ ] mesa as category
 - [ ] language, persistent
 	```
 	on load
