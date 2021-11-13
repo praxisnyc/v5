@@ -68,8 +68,7 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 - groups as proposals, with arguments stacked inside it
 - arguments can be:
 	- cards
-	- image crops
-	- animated crop
+	- image/animated crops
 	- groups
 - tucked-in objects (kinda personal)
 
