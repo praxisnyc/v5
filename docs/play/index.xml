@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plays on Praxis</title>
+    <link>https://praxis.nyc/v5/play/</link>
+    <description>Recent content in Plays on Praxis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://praxis.nyc/v5/play/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://praxis.nyc/v5/play/about/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/play/about/</guid>
+      <description>Download Praxis Play Version 1.4 A hugo theme environment for stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone.
+Subscribe to our newsletter for updates:
+ </description>
+    </item>
+    
+    <item>
+      <title>Credits</title>
+      <link>https://praxis.nyc/v5/play/credits/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/play/credits/</guid>
+      <description>By default, all creations have a hidden credits modal, accessed by clicking a top-right hidden area. It has:
+ 👍 title, description (from frontmatter) 👍 wanna describe in details your notes? use about: frontmatter. It&#39;s markdown-ready (use &#34;&#34; if multi-line) ⏳ if you have other relevant creations (sorted by features), it&#39;s listed here too (use no-relevant-links feature to disable) ⏳ author list (as per this standardization) 👍 Don&#39;t want credits on your creation?</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://praxis.nyc/v5/play/features/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/play/features/</guid>
+      <description>Ready-to-use features to speed up your creative code: Want text not to be selectable? Want to prevent zoom? ml5? smooth scroll?
+On frontmatter, add the features you need with play: feature1, feature2, etc (Make sure post is .html)
+Features are per page so you only load what you need, to ensure performance.
+👍ready to use  🧪in testing  ⏳soon    no-scroll prevents scroll
+   no-zoom prevents zoom</description>
+    </item>
+    
+    <item>
+      <title>Install</title>
+      <link>https://praxis.nyc/v5/play/install/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/play/install/</guid>
+      <description> Download latest release Unzip it and rename as play Move entire folder inside your huge themes folder On config.toml add theme = &#34;play&#34; Run your hugo normally  </description>
+    </item>
+    
+    <item>
+      <title>Scope</title>
+      <link>https://praxis.nyc/v5/play/scope/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/play/scope/</guid>
+      <description>We automatically adds post slug as an html class, so if your post url is domain/category/post/ your html also has a class play-post (it starts with play- to prevent any conflict).
+You can also create a more generic style (for multiple pages) by adding style: style-name on frontmatter. It will also appear as a class on html.
+Don&#39;t want CSS scope? Use no-scope feature</description>
+    </item>
+    
+  </channel>
+</rss>

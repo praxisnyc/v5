@@ -6,7 +6,70 @@
     <description>Recent content on Praxis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://praxis.nyc/v5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://praxis.nyc/v5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://praxis.nyc/v5/play/about/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/play/about/</guid>
+      <description>Download Praxis Play Version 1.4 A hugo theme environment for stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone.
+Subscribe to our newsletter for updates:
+ </description>
+    </item>
+    
+    <item>
+      <title>Credits</title>
+      <link>https://praxis.nyc/v5/play/credits/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/play/credits/</guid>
+      <description>By default, all creations have a hidden credits modal, accessed by clicking a top-right hidden area. It has:
+ 👍 title, description (from frontmatter) 👍 wanna describe in details your notes? use about: frontmatter. It&#39;s markdown-ready (use &#34;&#34; if multi-line) ⏳ if you have other relevant creations (sorted by features), it&#39;s listed here too (use no-relevant-links feature to disable) ⏳ author list (as per this standardization) 👍 Don&#39;t want credits on your creation?</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://praxis.nyc/v5/play/features/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/play/features/</guid>
+      <description>Ready-to-use features to speed up your creative code: Want text not to be selectable? Want to prevent zoom? ml5? smooth scroll?
+On frontmatter, add the features you need with play: feature1, feature2, etc (Make sure post is .html)
+Features are per page so you only load what you need, to ensure performance.
+👍ready to use  🧪in testing  ⏳soon    no-scroll prevents scroll
+   no-zoom prevents zoom</description>
+    </item>
+    
+    <item>
+      <title>Install</title>
+      <link>https://praxis.nyc/v5/play/install/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/play/install/</guid>
+      <description> Download latest release Unzip it and rename as play Move entire folder inside your huge themes folder On config.toml add theme = &#34;play&#34; Run your hugo normally  </description>
+    </item>
+    
+    <item>
+      <title>Scope</title>
+      <link>https://praxis.nyc/v5/play/scope/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/play/scope/</guid>
+      <description>We automatically adds post slug as an html class, so if your post url is domain/category/post/ your html also has a class play-post (it starts with play- to prevent any conflict).
+You can also create a more generic style (for multiple pages) by adding style: style-name on frontmatter. It will also appear as a class on html.
+Don&#39;t want CSS scope? Use no-scope feature</description>
+    </item>
+    
+    <item>
+      <title>Embodiment</title>
+      <link>https://praxis.nyc/v5/study/embodiment/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://praxis.nyc/v5/study/embodiment/</guid>
+      <description>  Come as You Are Mon November 15, 7:30PM EST   Come as You Are by Emily Nagoski Chapter 4 - Emotional Context The Body Never Lies by Alice Miller - Chapter 13    The Body Keeps the Score Mon November 29, 7:30PM EST   Chapter 5     Polyvagal Mon December 13, 7:30PM EST   Life Through A Polyvagal Lens Deb Dana, LCSW  In the Penal Colony (short story) - Kafka     Bone, Breath, and Gesture Mon January 10, 7:30PM EST   chapter TBD  </description>
+    </item>
+    
     <item>
       <title>Glossary</title>
       <link>https://praxis.nyc/v5/mesa/glossary/</link>
@@ -41,18 +104,6 @@
       
       <guid>https://praxis.nyc/v5/study/radical-care/</guid>
       <description>  Corruption of care Sat June 19, 2:30PM EST   Neoliberalism – the ideology at the root of all our problems (article) From Managerial Feudalism to the Revolt of the Caring Classes (video, 59:10)    Ideologies on Care Sat July 17, 2:30PM EST   Cindy Milstein on grief, mourning, and building institutions for care in anarchist movements (podcast)  Silvia Federici - On Elder Care Work And The Limits of Marxism  (19 pages) The Care Manifesto chapter 2, Caring Kinships    Pirate Care (guest speakers) Sat July 31, 2:30PM EST   Introduction to Pirate Care  Criminalization of Solidarity  The Hologram: a peer-to-peer social technology of care     Institutional Care Sat August 14, 2:30PM EST   Information Maintenance As a Practice of Care Hail The Maintainers (article)  </description>
-    </item>
-    
-    <item>
-      <title>Play</title>
-      <link>https://praxis.nyc/v5/play/</link>
-      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://praxis.nyc/v5/play/</guid>
-      <description>Download Praxis Play Version 1.4 A hugo theme environment for stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone.
-Subscribe to our newsletter for updates:
- features  CSS scope  credits  installation  Shortcodes  --  Ready-to-use features to speed up your creative code: Want text not to be selectable? Want to prevent zoom? ml5? smooth scroll?
-On frontmatter, add the features you need with play: feature1, feature2, etc (Make sure post is .</description>
     </item>
     
     <item>
