@@ -37,10 +37,11 @@ https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
 	- [ ] add more terms
 	- [ ] define glossary types, create slideshow
 	- [ ] be updated of changes
-- [ ] consulting
+- [x] consulting
 - [ ] sketch remaining pitch images
-- [ ] referance images for drawings
+- [x] referance images for drawings
 - [x] start working on brand
+- [ ] review illustration assets
 - [ ] revisit image/animatic script
 - [ ] design screens based on script and brand
 
