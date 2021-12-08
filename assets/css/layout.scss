@@ -3,30 +3,24 @@
 @include font-face(Akrobat, 
 	$path: "../fonts/", 
 	$file: Akrobat-Regular, 
-	$weight: normal, 
-	$style: normal, 
-	$stretch: normal, 
-	$transform: normal
+	$format: otf
 	);
+
 
 @include font-face(Akrobat, 
 	$path: "../fonts/", 
 	$file: Akrobat-Bold, 
 	$weight: bold, 
-	$style: normal, 
-	$stretch: normal, 
-	$transform: normal
+	$format: otf
 	);
+
 
 
 
 @include font-face(Space Grotesk, 
 	$path: "../fonts/", 
 	$file: SpaceGrotesk-Light, 
-	$weight: normal, 
-	$style: normal, 
-	$stretch: normal, 
-	$transform: normal
+	$format: woff
 	);
 
 
@@ -34,18 +28,13 @@
 	$path: "../fonts/", 
 	$file: SpaceGrotesk-Medium, 
 	$weight: bold, 
-	$style: normal, 
-	$stretch: normal, 
-	$transform: normal
+	$format: woff
 	);
 
 @include font-face(Hasklig, 
 	$path: "../fonts/", 
 	$file: hasklig-light, 
-	$weight: normal, 
-	$style: normal, 
-	$stretch: normal, 
-	$transform: normal
+	$format: woff
 	);
 
 footer.footer {
@@ -653,5 +642,8 @@ form.tinyletter {
 
 
 html.mesa {
-	--font: Akrobat;
+h1, h2, h3, h4 {
+		font-family: Akrobat;
+	font-weight: bold;
+}
 }
