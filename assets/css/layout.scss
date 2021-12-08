@@ -654,9 +654,21 @@ html.mesa {
 --color-bg: #eee;
 --color-fg: #333;
 h1, h2, h3, h4 {
+	    @include highlight(#F2C94C, $spacing: 7px, $top: 0px, $bottom: 3px);
+
 	font-weight: bold;
+}
+.cover {
+	h1 {
+		line-height: 45% !important;
+	}
+	h2 {
+	font-weight: normal;
+}
 }
 a.sig span {
 	    font-family: Space Grotesk;
 }
+ 
+
 }
