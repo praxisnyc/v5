@@ -1,10 +1,24 @@
-html.slide {
-    h1, h2, h3, h4 {
+
+
+  html.slide {
+    &:not(.mesa) { 
+       h1, h2, h3, h4 {
     @include highlight($spacing: 0px, $top: 10px, $bottom: 10px);
   }
+     tt {
+    @include highlight(yellow, $break: false, $gap: 0);
+    }
+    ol, ul {
+       li {
+        @include highlight;
+      }
+    }
+    .status {
+        @include highlight(rgba(0,0,0, .2), $top: 10px, $gap: 20px, $break: false);
+    }
+  }
+     
   body {
-    background-color: var(--color-bg);
-    background-image: url("../images/dot-bg.svg");
     padding: 0;
     margin: 0;
   }
@@ -34,9 +48,7 @@ html.slide {
   } 
 
   tt {
-    @include highlight(yellow, $break: false, $gap: 0);
 font-family: var(--font);
-
     & + tt {
       margin-left: 10px;
     }
@@ -90,9 +102,7 @@ font-family: var(--font);
     }
     ol, ul {
       display: inline-block;
-      li {
-        @include highlight;
-      }
+     
       ol {
         display: block;
       }
@@ -119,7 +129,6 @@ font-family: var(--font);
         background: none !important;
       }
       width: 70%;
-     // @include highlight($bg: lighten(yellow, 40%), $spacing: 0px, $top: 7px, $bottom: 5px);
      font-style: italic;
    }
    q {
@@ -272,7 +281,6 @@ font-family: var(--font);
 }
 .status {
   font-size: 1rem;
-  @include highlight(rgba(0,0,0, .2), $top: 10px, $gap: 20px, $break: false);
   @include radius(20px);
   vertical-align: middle;
   text-transform: none;

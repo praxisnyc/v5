@@ -1,10 +1,26 @@
+
+
+@include font-face(Akrobat, 
+	$path: "../fonts/", 
+	$file: Akrobat-Regular, 
+	$format: otf
+	);
+
+
+@include font-face(Akrobat, 
+	$path: "../fonts/", 
+	$file: Akrobat-Bold, 
+	$weight: bold, 
+	$format: otf
+	);
+
+
+
+
 @include font-face(Space Grotesk, 
 	$path: "../fonts/", 
 	$file: SpaceGrotesk-Light, 
-	$weight: normal, 
-	$style: normal, 
-	$stretch: normal, 
-	$transform: normal
+	$format: woff
 	);
 
 
@@ -12,18 +28,13 @@
 	$path: "../fonts/", 
 	$file: SpaceGrotesk-Medium, 
 	$weight: bold, 
-	$style: normal, 
-	$stretch: normal, 
-	$transform: normal
+	$format: woff
 	);
 
 @include font-face(Hasklig, 
 	$path: "../fonts/", 
 	$file: hasklig-light, 
-	$weight: normal, 
-	$style: normal, 
-	$stretch: normal, 
-	$transform: normal
+	$format: woff
 	);
 
 footer.footer {
@@ -96,12 +107,21 @@ footer.footer {
 
 
 p {
-	@include highlight;
 	line-height: 160%;
+
+}
+
+html:not(.mesa) {
+	body .background {
+		background-image: var(--bg-image);
+	}
+	p {
+	@include highlight;
 	&:last-of-type {
 		@include highlight($spacing: 0px);
 	}
 
+}
 }
 
 .list {
@@ -163,7 +183,6 @@ body {
 	font-size: 18px;
 	color: var(--color-fg);
 	.background {
-		background-image: var(--bg-image);
 		background-color: var(--color-bg);
 		top: 0;
 		left: 0;
@@ -630,4 +649,26 @@ form.tinyletter {
 
 
 
+html.mesa {
+--font: Akrobat;
+--color-bg: #eee;
+--color-fg: #333;
+h1, h2, h3, h4 {
+	    @include highlight(#F2C94C, $spacing: 7px, $top: 0px, $bottom: 3px);
 
+	font-weight: bold;
+}
+.cover {
+	h1 {
+		line-height: 45% !important;
+	}
+	h2 {
+	font-weight: normal;
+}
+}
+a.sig span {
+	    font-family: Space Grotesk;
+}
+ 
+
+}

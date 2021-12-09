@@ -1,0 +1,49 @@
+html {
+	[lang] {
+		display: none;
+	}
+	nav.lang {
+		margin-left: -10px;
+		margin-top: 15px;
+		a {
+			font-size: 80%;
+			text-decoration: none;
+			background-color: #ccc;
+			padding: 5px;
+			&.active {
+				@include disable(link);
+				background-color: black;
+				color: white;
+			}
+		}
+	}
+	&.lang-en {
+		[lang=en] {
+			display: block;
+			@include fadeIn;
+		}
+		nav.lang a.lang-en {
+			@extend .active;
+		}
+	}
+	&.lang-pt {
+		[lang=pt] {
+			display: block;
+
+			@include fadeIn;
+		}
+		nav.lang a.lang-pt {
+			@extend .active;
+		}
+	}
+	&.lang-de {
+		[lang=de] {
+			display: block;
+
+			@include fadeIn;
+		}
+		nav.lang a.lang-de {
+			@extend .active;
+		}
+	}
+}
