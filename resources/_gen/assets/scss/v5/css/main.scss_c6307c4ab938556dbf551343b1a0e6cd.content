@@ -14999,44 +14999,46 @@ a.text-dark:hover, a.text-dark:focus {
     padding-top: var(--gap-2); } }
 
 @font-face {
-  font-family: Akrobat;
-  src: url("../fonts/Akrobat-Regular.otf");
+  font-family: Space Grotesk;
+  src: url("../fonts/SpaceGrotesk-Light.eot");
+  src: url("../fonts/SpaceGrotesk-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/SpaceGrotesk-Light.woff") format("woff"), url("../fonts/SpaceGrotesk-Light.ttf") format("truetype"), url("../fonts/SpaceGrotesk-Light.svg#Space Grotesk") format("svg");
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   text-transform: transform; }
 
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Space Grotesk;
+    src: url("../fonts/SpaceGrotesk-Light.svg#Space Grotesk") format("svg"); } }
+
 @font-face {
-  font-family: Akrobat;
-  src: url("../fonts/Akrobat-Bold.otf");
+  font-family: Space Grotesk;
+  src: url("../fonts/SpaceGrotesk-Medium.eot");
+  src: url("../fonts/SpaceGrotesk-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/SpaceGrotesk-Medium.woff") format("woff"), url("../fonts/SpaceGrotesk-Medium.ttf") format("truetype"), url("../fonts/SpaceGrotesk-Medium.svg#Space Grotesk") format("svg");
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   text-transform: transform; }
 
-@font-face {
-  font-family: Space Grotesk;
-  src: url("../fonts/SpaceGrotesk-Light.woff");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  text-transform: transform; }
-
-@font-face {
-  font-family: Space Grotesk;
-  src: url("../fonts/SpaceGrotesk-Medium.woff");
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  text-transform: transform; }
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Space Grotesk;
+    src: url("../fonts/SpaceGrotesk-Medium.svg#Space Grotesk") format("svg"); } }
 
 @font-face {
   font-family: Hasklig;
-  src: url("../fonts/hasklig-light.woff");
+  src: url("../fonts/hasklig-light.eot");
+  src: url("../fonts/hasklig-light.eot?#iefix") format("embedded-opentype"), url("../fonts/hasklig-light.woff") format("woff"), url("../fonts/hasklig-light.ttf") format("truetype"), url("../fonts/hasklig-light.svg#Hasklig") format("svg");
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   text-transform: transform; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Hasklig;
+    src: url("../fonts/hasklig-light.svg#Hasklig") format("svg"); } }
 
 footer.footer {
   --logo-small: 18px; }
@@ -15123,30 +15125,25 @@ html.dark-mode footer.footer a.path:before, html.redux footer.footer a.path:befo
   background-image: url("../images/logo-small-white.svg"); }
 
 p {
-  line-height: 160%; }
-
-html:not(.mesa) body .background {
-  background-image: var(--bg-image); }
-
-html:not(.mesa) p {
   display: inline;
   background: var(--color-bg);
   box-shadow: 10px 0 0 var(--color-bg), -10px 0 0 var(--color-bg);
   position: relative;
   padding-bottom: 5px;
   padding-top: 7px;
-  box-decoration-break: clone; }
+  box-decoration-break: clone;
+  line-height: 160%; }
 
-html.firefox html:not(.mesa) p {
+html.firefox p {
   padding-top: 10px; }
 
-html:not(.mesa) p::after {
+p::after {
   content: "";
   display: block;
   height: 20px;
   background: none !important; }
 
-html:not(.mesa) p:last-of-type {
+p:last-of-type {
   display: inline;
   background: var(--color-bg);
   box-shadow: 10px 0 0 var(--color-bg), -10px 0 0 var(--color-bg);
@@ -15155,10 +15152,10 @@ html:not(.mesa) p:last-of-type {
   padding-top: 7px;
   box-decoration-break: clone; }
 
-html.firefox html:not(.mesa) p:last-of-type {
+html.firefox p:last-of-type {
   padding-top: 10px; }
 
-html:not(.mesa) p:last-of-type::after {
+p:last-of-type::after {
   content: "";
   display: block;
   height: 0px;
@@ -15528,6 +15525,7 @@ body {
   color: var(--color-fg); }
 
 body .background {
+  background-image: var(--bg-image);
   background-color: var(--color-bg);
   top: 0;
   left: 0;
@@ -16289,39 +16287,6 @@ form.tinyletter input.button {
   font-weight: bold;
   text-transform: uppercase;
   border: 0; }
-
-html.mesa {
-  --font: Akrobat;
-  --color-bg: #eee;
-  --color-fg: #333; }
-
-html.mesa h1, html.mesa h2, html.mesa h3, html.mesa h4 {
-  display: inline;
-  background: #F2C94C;
-  box-shadow: 10px 0 0 #F2C94C,-10px 0 0 #F2C94C;
-  position: relative;
-  padding-bottom: 3px;
-  padding-top: 0px;
-  box-decoration-break: clone;
-  font-weight: bold; }
-
-html.firefox html.mesa h1, html.firefox html.mesa h2, html.firefox html.mesa h3, html.firefox html.mesa h4 {
-  padding-top: 3px; }
-
-html.mesa h1::after, html.mesa h2::after, html.mesa h3::after, html.mesa h4::after {
-  content: "";
-  display: block;
-  height: 7px;
-  background: none !important; }
-
-html.mesa .cover h1 {
-  line-height: 45% !important; }
-
-html.mesa .cover h2 {
-  font-weight: normal; }
-
-html.mesa a.sig span {
-  font-family: Space Grotesk; }
 
 html [lang] {
   display: none; }
@@ -18489,7 +18454,7 @@ html.print-pdf .aria-status {
     font-size: inherit !important;
     color: inherit !important; } }
 
-html.slide:not(.mesa) h1, html.slide:not(.mesa) h2, html.slide:not(.mesa) h3, html.slide:not(.mesa) h4 {
+html.slide h1, html.slide h2, html.slide h3, html.slide h4 {
   display: inline;
   background: var(--color-bg);
   box-shadow: 10px 0 0 var(--color-bg), -10px 0 0 var(--color-bg);
@@ -18498,58 +18463,18 @@ html.slide:not(.mesa) h1, html.slide:not(.mesa) h2, html.slide:not(.mesa) h3, ht
   padding-top: 10px;
   box-decoration-break: clone; }
 
-html.firefox html.slide:not(.mesa) h1, html.firefox html.slide:not(.mesa) h2, html.firefox html.slide:not(.mesa) h3, html.firefox html.slide:not(.mesa) h4 {
+html.firefox html.slide h1, html.firefox html.slide h2, html.firefox html.slide h3, html.firefox html.slide h4 {
   padding-top: 13px; }
 
-html.slide:not(.mesa) h1::after, html.slide:not(.mesa) h2::after, html.slide:not(.mesa) h3::after, html.slide:not(.mesa) h4::after {
+html.slide h1::after, html.slide h2::after, html.slide h3::after, html.slide h4::after {
   content: "";
   display: block;
   height: 0px;
   background: none !important; }
 
-html.slide:not(.mesa) tt {
-  display: inline;
-  background: #ff0;
-  box-shadow: 0 0 0 #ff0,0 0 0 #ff0;
-  position: relative;
-  padding-bottom: 5px;
-  padding-top: 7px;
-  box-decoration-break: clone; }
-
-html.firefox html.slide:not(.mesa) tt {
-  padding-top: 10px; }
-
-html.slide:not(.mesa) ol li, html.slide:not(.mesa) ul li {
-  display: inline;
-  background: var(--color-bg);
-  box-shadow: 10px 0 0 var(--color-bg), -10px 0 0 var(--color-bg);
-  position: relative;
-  padding-bottom: 5px;
-  padding-top: 7px;
-  box-decoration-break: clone; }
-
-html.firefox html.slide:not(.mesa) ol li, html.firefox html.slide:not(.mesa) ul li {
-  padding-top: 10px; }
-
-html.slide:not(.mesa) ol li::after, html.slide:not(.mesa) ul li::after {
-  content: "";
-  display: block;
-  height: 20px;
-  background: none !important; }
-
-html.slide:not(.mesa) .status {
-  display: inline;
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: 20px 0 0 rgba(0, 0, 0, 0.2), -20px 0 0 rgba(0, 0, 0, 0.2);
-  position: relative;
-  padding-bottom: 5px;
-  padding-top: 10px;
-  box-decoration-break: clone; }
-
-html.firefox html.slide:not(.mesa) .status {
-  padding-top: 13px; }
-
 html.slide body {
+  background-color: var(--color-bg);
+  background-image: url("../images/dot-bg.svg");
   padding: 0;
   margin: 0; }
 
@@ -18611,7 +18536,17 @@ html.slide section h1, html.slide section h2 tt, html.slide section h3 tt {
   text-transform: uppercase; }
 
 html.slide tt {
+  display: inline;
+  background: #ff0;
+  box-shadow: 0 0 0 #ff0,0 0 0 #ff0;
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 7px;
+  box-decoration-break: clone;
   font-family: var(--font); }
+
+html.firefox html.slide tt {
+  padding-top: 10px; }
 
 html.slide tt + tt {
   margin-left: 10px; }
@@ -18663,6 +18598,24 @@ html.slide .reveal ol {
 
 html.slide .reveal ol, html.slide .reveal ul {
   display: inline-block; }
+
+html.slide .reveal ol li, html.slide .reveal ul li {
+  display: inline;
+  background: var(--color-bg);
+  box-shadow: 10px 0 0 var(--color-bg), -10px 0 0 var(--color-bg);
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 7px;
+  box-decoration-break: clone; }
+
+html.firefox html.slide .reveal ol li, html.firefox html.slide .reveal ul li {
+  padding-top: 10px; }
+
+html.slide .reveal ol li::after, html.slide .reveal ul li::after {
+  content: "";
+  display: block;
+  height: 20px;
+  background: none !important; }
 
 html.slide .reveal ol ol, html.slide .reveal ul ol {
   display: block; }
@@ -18919,6 +18872,13 @@ html.slide picture.mobile.more-both:before {
 
 html.slide .status {
   font-size: 1rem;
+  display: inline;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 20px 0 0 rgba(0, 0, 0, 0.2), -20px 0 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  box-decoration-break: clone;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
@@ -18929,6 +18889,9 @@ html.slide .status {
   background-clip: padding-box;
   vertical-align: middle;
   text-transform: none; }
+
+html.firefox html.slide .status {
+  padding-top: 13px; }
 
 .collab a img, .collab a svg {
   -webkit-transition: all 300ms ease-out;

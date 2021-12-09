@@ -1,42 +1,46 @@
-# 📽 praxis v5 - mesa
+# praxis v5
 
-[site](https://praxis.nyc/v5) | [notion notes](https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd)
 
-##  TODO
-- [ ] tuck in glossary (for later)
-- [ ] mesa font, category
-- [ ] design `category-list` with arrow
-- [ ] play as category
-- [ ] list of everything in category, at the end of article
-- [ ] technical stuff
-  - [ ] slides, language swap
-- [x] design `post-list`
-- [x] switch `category-post` for `post-list`
+https://praxis.nyc/v5
+https://delicious-cloche-a58.notion.site/mesa-1f47efa0c20e4855a4928e37a53a4abd
+
+## TODO
+
+- [ ] slides, language swap
+- [ ] design `post-list`
+- [ ] switch `category-post` for `post-list`
 - [ ] other articles on same category (on `single`)
 - [ ] different headers for different categories on `single`
 - [ ] what do we do with orphan articles? find category for it
 - [ ] categories on footer
 - [ ] redesign initial page 
 - [ ] language, persistent
-  ```
-  on load
-  text + slug
-  get slug from glossary.yaml
-  get if any dangerous character
-  if yes, text
-  if no, continue
-  check parent lang=
-  check if we HAVE term in this language
-  if yes, do popover
-  if no, just text
-  ```
+	```
+	on load
+	text + slug
+	get slug from glossary.yaml
+	get if any dangerous character
+	if yes, text
+	if no, continue
+	check parent lang=
+	check if we HAVE term in this language
+	if yes, do popover
+	if no, just text
+	```
+
 
 ## TODO, communications
+
+- [X] hugo on josh's computer
+- [X] hugo-figma integration
 - [ ] glossary
-  - [ ] add more terms
-  - [ ] define glossary types, create slideshow
-  - [ ] be updated of changes
+	- [ ] add more terms
+	- [ ] define glossary types, create slideshow
+	- [ ] be updated of changes
+- [x] consulting
 - [ ] sketch remaining pitch images
+- [x] referance images for drawings
+- [x] start working on brand
 - [ ] review illustration assets
 - [ ] revisit image/animatic script
 - [ ] design screens based on script and brand
@@ -85,3 +89,13 @@
 - a lot of weights
 - readability (from far away? from low definition projectors?)
 - titles and long text
+
+
+````
+cd ~/Documents/praxis/v5
+git pull
+open -a "sublime text" .
+open http://localhost:1313/v5/
+hugo server -D
+
+```
