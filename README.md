@@ -9,10 +9,16 @@ https://praxis.nyc
 - [x] redirect for wish.html
 - [x] redirect for cognition.html
 - [x] redirect for ssb-groups.html
-- [ ] redo initial page with copy josh sent
-- [ ] redo list of content
-- [ ] redo teams
+- [x] redo initial page with copy josh sent
+- [x] redo list of content
+- [x] redo teams
 - [ ] move study as a subset (how?)
+- [ ] check padding on index
+- [ ] prettify contact
+- [ ] final approval of copy
+- [ ] collect all copy on one place for translation
+- [ ] portuguese translation
+- [ ] german translation
 
 ## Migration
 
