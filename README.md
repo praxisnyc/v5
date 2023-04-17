@@ -16,9 +16,11 @@ https://praxis.nyc
 - [ ] check padding on index
 - [ ] prettify contact
 - [ ] final approval of copy
+- [ ] migrate to root, move original to v4
 - [ ] collect all copy on one place for translation
 - [ ] portuguese translation
 - [ ] german translation
+
 
 ## Migration
 
