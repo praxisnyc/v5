@@ -21,6 +21,13 @@ https://praxis.nyc
 - [ ] portuguese translation
 - [ ] german translation
 
+## Mesa
+
+- [ ] josh: find reference hand pictures to nicholas
+- [ ] nicholas: hand illustration, vectorized for figma
+- [ ] josh and nicholas: perfect image
+- [ ] contact points to /contact
+- [ ] team shows as columns, with more info (review copy)
 
 ## Migration
 
