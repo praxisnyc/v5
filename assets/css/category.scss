@@ -21,11 +21,11 @@ section.category {
 	}
 
 	a.btn {
-			@media screen and (min-width: $bp) {
-					float: right;
-		margin-top: -55px;
-			}
-	
+		@media screen and (min-width: $bp) {
+			float: right;
+			margin-top: -55px;
+		}
+
 	}
 	.category-description {
 		margin-top: var(--gap);
@@ -41,8 +41,8 @@ section.category {
 		display: flex;
 		flex-wrap: no-wrap;
 		overflow-x: auto;
-		max-width: 520px;
-				.category-post {
+		max-width: 100%;
+		.category-post {
 			flex: 0 0 auto;
 			margin-top: 20px;
 			width: calc(var(--nav) * 2);
@@ -51,8 +51,8 @@ section.category {
 			}
 		}
 		a.btn { 
-		white-space: nowrap;
-		margin: auto var(--gap-2);
+			white-space: nowrap;
+			margin: auto var(--gap-2);
 
 		}
 	}
@@ -65,44 +65,44 @@ section.category {
 		}
 	}
 	html.touch & .category-menu {
-	@include fadeInDown($delay: calc(var(--delay) * 4));
+		@include fadeInDown($delay: calc(var(--delay) * 4));
 	}
 	
 }
 
 
 .category-menu {
-		@include transition;
-		.category-post {
-			padding: var(--gap-2);
-			displaY: block;
-			height: var(--nav);
-			text-decoration: none;
-			@include assorted-bgs;
-			background-size: cover !important;
-			background-position: center center !important;
-			header {
-				width: calc(var(--nav) * 2);
-			}
-			p {
-				@include transition;
-text-transform: uppercase;
-				font-weight: bold;
-				
-			}
-			&:hover {
-				@include scale(1.1);
-				p {
-					@include highlight(var(--color-accent),$spacing: 0px);
-					color: var(--color-bg);
-					
-				}
-			}
+	@include transition;
+	.category-post {
+		padding: var(--gap-2);
+		displaY: block;
+		height: var(--nav);
+		text-decoration: none;
+		@include assorted-bgs;
+		background-size: cover !important;
+		background-position: center center !important;
+		header {
+			width: calc(var(--nav) * 2);
+		}
+		p {
+			@include transition;
+			text-transform: uppercase;
+			font-weight: bold;
 
-			.title {
-				font-size: 150%;
-				line-height: 50%;
-				@include highlight($spacing: 0px);
+		}
+		&:hover {
+			@include scale(1.1);
+			p {
+				@include highlight(var(--color-accent),$spacing: 0px);
+				color: var(--color-bg);
+
 			}
 		}
+
+		.title {
+			font-size: 150%;
+			line-height: 50%;
+			@include highlight($spacing: 0px);
+		}
 	}
+}

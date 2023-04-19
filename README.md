@@ -33,3 +33,4 @@ https://praxis.nyc
 
 - [ ] remove v5 from config.toml
 - [ ] remove v5 from redirect-internal
+- [ ] remove v5 from redux
